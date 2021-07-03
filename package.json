@@ -1,0 +1,18 @@
+{
+  "name": "vizality-snippets",
+  "main": "./lib/vizality-snippets",
+  "version": "0.0.0",
+  "description": "Some snippets to aid in development of Vizality plugins.",
+  "keywords": [
+    "vizality",
+    "snippets",
+    "discord",
+    "plugins"
+  ],
+  "repository": "https://github.com/v-briese/vizality-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

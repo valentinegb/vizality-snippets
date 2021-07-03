@@ -1,0 +1,40 @@
+'.source.jsx':
+  'React Component':
+    'prefix': 'vzc'
+    'body': """
+      import React from 'react';
+
+      export default (props) => {
+        const { $1 } = props;
+
+        return (
+          $2
+        );
+      };
+    """
+  'React Memoized Component':
+    'description': 'Supposedly faster, good practice to use.'
+    'prefix': 'vzmc'
+    'body': """
+      import React, { memo } from 'react';
+
+      export default memo((props) => {
+        const { $1 } = props;
+
+        return (
+          $2
+        );
+      });
+    """
+  'Vizality Settings Component':
+    'description': '(Memoized)'
+    'prefix': 'vzsc'
+    'body': """
+      import React, { memo } from 'react';
+
+      export default memo(({ getSetting, updateSetting, toggleSetting }) => {
+        return (
+          $1
+        );
+      });
+    """

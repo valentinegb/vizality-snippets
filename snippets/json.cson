@@ -1,0 +1,27 @@
+'.source.json':
+  'Vizality Plugin Manifest':
+    'prefix': 'vzp'
+    'body': """
+      {
+        "name": "$1",
+        "description": "$2",
+        "version": "${3:1.0.0}",
+        "license": "${4:MIT}",
+        "author": {
+          "name": "${5:Vbriese}",
+          "id": "${6:441384103946878987}"
+        }
+      }
+    """
+  'Vizality Theme Manifest':
+    'prefix': 'vzt'
+    'body': """
+      {
+        "name": "$1",
+        "description": "$2",
+        "version": "${3:1.0.0}",
+        "license": "${4:MIT}",
+        "author": "${5:Vbriese}",
+        "theme": "${6:theme.css}"
+      }
+    """
