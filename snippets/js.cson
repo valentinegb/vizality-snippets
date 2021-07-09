@@ -22,8 +22,21 @@
         $5
       });
     """
-  'React Component':
-    'prefix': 'vzc'
+  'React Class Component':
+    'prefix': 'vzcc'
+    'body': """
+    import React, { Component } from 'react';
+
+    export default class ${1:MyComponent} extends Component {
+      render () {
+        return (
+          $2
+        );
+      }
+    }
+    """
+  'React Functional Component':
+    'prefix': 'vzfc'
     'body': """
       import React from 'react';
 
