@@ -1,7 +1,7 @@
 {
   "name": "vizality-snippets",
   "main": "./lib/vizality-snippets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Some snippets to aid in development of Vizality addons.",
   "keywords": [
     "vizality",
